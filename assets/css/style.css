@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'icones';
     src: url(../font/icones.ttf);
@@ -6,6 +8,10 @@
     font-family: "Open Sans", "icones" , sans-serif;
     margin: 0;
     padding: 0;
+
+}
+a{
+    text-decoration: none;
 }
 
 body{
@@ -51,11 +57,12 @@ body{
 
     position: absolute;
     left: -100vw;
-    transition: .25s;
+    transition: left .25s;
+    z-index: 99;
 }
 .menu-lateral--ativo{
     left: 0;
-    transition: .25s;
+    transition: left .25s;
 }
 .menu-lateral-logo{
     width: 118px;
