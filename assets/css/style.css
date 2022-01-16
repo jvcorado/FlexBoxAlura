@@ -49,9 +49,11 @@ body{
 
     position: absolute;
     left: -100vw;
+    transition: .25s;
 }
 .menu-lateral--ativo{
     left: 0;
+    transition: .25s;
 }
 .menu-lateral-logo{
     width: 118px;
