@@ -104,3 +104,6 @@ body{
 .menu-lateral-camisas::before{
     content: "\e900";
 }
+.menu-lateral-pinturas::before{
+    content: "\e90a";
+}
