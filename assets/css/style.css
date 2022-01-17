@@ -186,6 +186,9 @@ body{
     border: none;
     justify-self: flex-end;
 }
+.cartao-botao:hover{
+    opacity: 50%;
+}
 .cartao-botao-play::before{
     content: "\e90b";
     font-size: 24px;
