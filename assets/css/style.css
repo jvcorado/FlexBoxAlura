@@ -130,7 +130,7 @@ body{
 }
 .cartao--destaque{
     margin-bottom: 16px;
-    
+
 }
 .cartao-destaque{
     grid-column: span 2;
@@ -175,6 +175,7 @@ body{
     border-radius: 10px;
     font-size: 0.9rem;
     border: none;
+    justify-self: flex-end;
 }
 .cartao-botao-play::before{
     content: "\e90b";
